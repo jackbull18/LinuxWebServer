@@ -3,6 +3,7 @@
 #include <sys/select.h>
 #include <arpa/inet.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 #define SERVERIP "127.0.0.1"
 #define SERVERPORT 6789

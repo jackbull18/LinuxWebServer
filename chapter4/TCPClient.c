@@ -33,7 +33,6 @@ int main(){
         //发送数据
         char *send_buf = "client message";
         write(connfd, send_buf, strlen(send_buf));
-        sleep(1);
 
         //接受数据
         ret = read(connfd, recv_buf, sizeof(recv_buf));
